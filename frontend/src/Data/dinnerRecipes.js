@@ -4,6 +4,8 @@ const dinnerRecipes = [
       name: "Grilled Salmon",
       image: "https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R3JpbGxlZCUyMFNhbG1vbnxlbnwwfHwwfHx8MA%3D%3D.jpg",
       description: "Perfectly grilled salmon fillet with lemon butter sauce and fresh herbs.",
+      time: "20 mins",
+      rating: 4.1,
       ingredients: [
         "2 salmon fillets (6 oz each)",
         "1 lemon (sliced into rounds)",
@@ -30,6 +32,8 @@ const dinnerRecipes = [
       name: "Chicken Grill",
       image: "https://images.unsplash.com/photo-1598515211932-b130a728a769?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hpY2tlbiUyMGdyaWxsfGVufDB8fDB8fHww.jpg",
       description: "Colorful vegetables tossed in a savory soy sauce glaze, served with rice.",
+      time: "35 mins",
+    rating: 4.7,
       ingredients: [
         "2 chicken breasts (boneless, skinless)",
         "3 tbsp BBQ sauce",
@@ -56,6 +60,8 @@ const dinnerRecipes = [
       name: "Egg omlette",
       image: "https://images.unsplash.com/photo-1663059364204-e33b6bb49cc5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWdnJTIwb21sZXR0ZXxlbnwwfHwwfHx8MA%3D%3D.jpg",
       description: "Fresh pasta with seasonal vegetables, tossed in a light garlic olive oil sauce.",
+      time: "10 mins",
+      rating: 5,
       ingredients: [
         "3 large eggs",
         "2 tbsp milk",

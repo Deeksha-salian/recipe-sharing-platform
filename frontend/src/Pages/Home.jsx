@@ -7,6 +7,7 @@ import breakfastRecipes from "../Data/breakfastRecipes";
 import lunchRecipes from "../Data/lunchRecipes";
 import dinnerRecipes from "../Data/dinnerRecipes";
 import dessertsRecipes from "../Data/dessertsRecipes";
+import RecipeCard from "../Components/RecipeCard";
 
 const categories = [
   { name: "Breakfast", id: "breakfast", recipes: breakfastRecipes },
@@ -90,7 +91,9 @@ const Home = () => {
             <Row>
               {category.recipes.map((recipe) => (
                 <Col key={recipe.id} md={4} className="mb-4">
-                  <Card className="shadow">
+                  <RecipeCard recipe={recipe} />
+                  {/* <Card className="shadow">
+                  <RecipeCard recipe={recipe} />
                     <Card.Img variant="top" src={recipe.image} alt={recipe.name} />
                     <Card.Body>
                       <Card.Title>{recipe.name}</Card.Title>
@@ -99,7 +102,7 @@ const Home = () => {
                         View Recipe
                       </Button>
                     </Card.Body>
-                  </Card>
+                  </Card> */}
                 </Col>
               ))}
             </Row>

@@ -22,7 +22,9 @@ const breakfastRecipes = [
         "Pour 1/4 cup of batter onto the pan for each pancake.",
         "Cook until bubbles form on the surface, then flip and cook until golden brown.",
         "Serve with syrup, fruit, or toppings of choice."
-      ]
+      ],
+      time:"20 mins",
+      rating:2.6
     },
     {
       id: 2,
@@ -44,7 +46,9 @@ const breakfastRecipes = [
         "Spread the avocado mixture evenly over the toasted bread.",
         "Drizzle with olive oil and sprinkle with chili flakes (if desired).",
         "Serve immediately and enjoy!"
-      ]
+      ],
+      time:"25 mins",
+      rating:3.3
     },
     {
       id: 3,
@@ -67,9 +71,82 @@ const breakfastRecipes = [
         "Top with granola and fresh fruits.",
         "Drizzle with extra honey if desired.",
         "Serve immediately and enjoy your refreshing smoothie bowl!"
-      ]
+      ],
+      time:"45 mins",
+      rating:5
     },
-    
+    {
+    id: 6,
+    name: "French Toast",
+    image: "https://images.unsplash.com/photo-1561758033-6c5f44914c98",
+    description: "Golden-brown slices of bread soaked in a vanilla-egg mixture, served with syrup.",
+    time: "20 mins",
+    rating: 4.8,
+    ingredients: [
+      "4 slices of bread",
+      "2 eggs",
+      "1/2 cup milk",
+      "1 tsp vanilla extract",
+      "1/2 tsp cinnamon",
+      "Butter for cooking",
+      "Maple syrup and berries for topping"
+    ],
+    instructions: [
+      "Whisk eggs, milk, vanilla, and cinnamon in a bowl.",
+      "Heat a buttered pan over medium heat.",
+      "Dip each slice of bread in the mixture, ensuring both sides are coated.",
+      "Cook until golden brown on each side (about 2-3 minutes per side).",
+      "Serve with syrup and fresh berries."
+    ]
+  },
+  {
+    id: 7,
+    name: "Banana Pancakes",
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8",
+    description: "Fluffy pancakes made with mashed bananas and a hint of cinnamon.",
+    time: "25 mins",
+    rating: 4.7,
+    ingredients: [
+      "2 ripe bananas (mashed)",
+      "1 cup flour",
+      "1/2 cup milk",
+      "1 egg",
+      "1 tbsp honey",
+      "1 tsp baking powder",
+      "1/2 tsp cinnamon",
+      "Butter for cooking"
+    ],
+    instructions: [
+      "Mix mashed bananas, flour, milk, egg, honey, baking powder, and cinnamon in a bowl.",
+      "Heat a pan and add a little butter.",
+      "Pour small amounts of batter onto the pan.",
+      "Cook for 2-3 minutes until bubbles form, then flip.",
+      "Serve warm with honey or syrup."
+    ]
+  },
+  {
+    id: 8,
+    name: "Egg Benedict",
+    image: "https://images.unsplash.com/photo-1604890003520-6a3e1b8e8b09",
+    description: "Poached eggs with hollandaise sauce over an English muffin with ham.",
+    time: "30 mins",
+    rating: 4.9,
+    ingredients: [
+      "2 English muffins (halved)",
+      "4 eggs",
+      "4 slices of ham",
+      "1/2 cup hollandaise sauce",
+      "1 tbsp white vinegar",
+      "Salt and pepper to taste"
+    ],
+    instructions: [
+      "Toast the English muffins and place ham on top.",
+      "Bring a pot of water to a simmer, add vinegar, and swirl.",
+      "Crack eggs one at a time into the water and poach for 3 minutes.",
+      "Place poached eggs on top of the ham.",
+      "Drizzle with hollandaise sauce and season with salt and pepper."
+    ]
+  },
   ];
   
   export default breakfastRecipes;

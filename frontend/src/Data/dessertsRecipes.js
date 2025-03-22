@@ -4,6 +4,8 @@ const dessertsRecipes = [
       name: "Chocolate Lava Cake",
       image: "https://plus.unsplash.com/premium_photo-1723867522131-af9733323bc1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2hvY29sYXRlJTIwbGF2YSUyMGNha2V8ZW58MHx8MHx8fDA%3D.jpg",
       description: "A rich, gooey chocolate cake with a molten center, best served with a scoop of vanilla ice cream.",
+      time: "25 mins",
+    rating: 3.8,
       ingredients: [
         "1/2 cup unsalted butter",
         "1 cup semi-sweet chocolate chips",
@@ -32,6 +34,8 @@ const dessertsRecipes = [
       name: "Berry Cheesecake Parfait",
       image: "https://plus.unsplash.com/premium_photo-1667899297206-7b6831cb194c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmVycnklMjBDaGVlc2VjYWtlJTIwUGFyZmFpfGVufDB8fDB8fHww.jpg",
       description: "Layers of creamy cheesecake filling, graham cracker crumbs, and fresh mixed berries — a no-bake delight!",
+      time: "15 mins",
+      rating: 3.8,
       ingredients: [
         "1 cup cream cheese (softened)",
         "1/2 cup Greek yogurt",
@@ -59,6 +63,8 @@ const dessertsRecipes = [
       name: "Tiramisu",
       image: "https://images.unsplash.com/photo-1681564334698-8c85a9b4b1f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHRpcmFtaXN1fGVufDB8fDB8fHww.jpg",
       description: "An elegant Italian dessert with coffee-soaked ladyfingers, layered with a smooth mascarpone mixture, dusted with cocoa powder.",
+      time: "4 hours (chilling)",
+      rating: 4.8,
       ingredients: [
         "1 cup heavy cream",
         "1/2 cup granulated sugar",

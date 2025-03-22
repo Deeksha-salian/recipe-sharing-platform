@@ -5,7 +5,6 @@ import breakfastRecipes from '../Data/breakfastRecipes';
 import lunchRecipes from '../Data/lunchRecipes';
 import dinnerRecipes from "../Data/dinnerRecipes";
 import dessertsRecipes from "../Data/dessertsRecipes";
-
 import './RecipeDetails.css';
 
 const RecipeDetails = () => {

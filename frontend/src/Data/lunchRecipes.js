@@ -1,9 +1,11 @@
 const lunchRecipes = [
     {
-      id: 6,
+      id: 9,
       name: "Grilled Chicken Salad",
       image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3JpbGxlZCUyMENoaWNrZW4lMjBTYWxhZHxlbnwwfHwwfHx8MA%3D%3D.jpg",
       description: "A healthy salad with grilled chicken, fresh greens, and a light vinaigrette.",
+      time: "25 mins",
+      rating: 3.9,
       ingredients: [
         "2 chicken breasts",
         "4 cups mixed greens",
@@ -24,10 +26,12 @@ const lunchRecipes = [
       ]
     },
     {
-      id: 7,
+      id: 10,
       name: "Pasta Primavera",
       image: "https://www.budgetbytes.com/wp-content/uploads/2023/05/Pasta-Primavera-fork.jpg",
       description: "A colorful pasta dish with seasonal vegetables and a garlic olive oil sauce.",
+      time: "30 mins",
+    rating: 4,
       ingredients: [
         "8 oz spaghetti or penne pasta",
         "1 zucchini (sliced)",
@@ -49,10 +53,12 @@ const lunchRecipes = [
       ]
     },
     {
-      id: 8,
+      id: 11,
       name: "Vegetable Stir-Fry",
       image: "https://plus.unsplash.com/premium_photo-1664472637341-3ec829d1f4df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8VmVnZXRhYmxlJTIwU3RpciUyMEZyeXxlbnwwfHwwfHx8MA%3D%3D.jpg",
       description: "A quick and easy stir-fry with fresh vegetables and a savory soy sauce.",
+      time: "20 mins",
+      rating: 2.3,
       ingredients: [
         "1 cup broccoli florets",
         "1 carrot (sliced)",
