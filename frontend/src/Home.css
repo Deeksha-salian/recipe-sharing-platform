@@ -91,6 +91,62 @@
   .view-recipe-btn:hover {
     background-color: #0056b3; /* Darker blue on hover */
   }
+  .scrollable-recipes {
+    max-height: 400px;  /* Adjust the height as needed */
+    overflow-y: auto;  /* Enables vertical scrolling */
+    padding: 10px;  /* Add some spacing */
+    border-radius: 8px;
+    background-color: #f9f9f9;  /* Light background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .scrollable-recipes-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .scrollable-recipes {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    gap: 15px; /* Adds spacing between items */
+    padding-bottom: 10px;
+  }
+  
+  .scrollable-recipes::-webkit-scrollbar {
+    height: 8px; /* Controls scrollbar thickness */
+  }
+  
+  .scrollable-recipes::-webkit-scrollbar-thumb {
+    background-color: #ff6f61; /* Custom color */
+    border-radius: 4px;
+  }
+  
+  .recipe-card {
+    flex: 0 0 auto; /* Prevents items from shrinking */
+    width: 300px; /* Adjust width as needed */
+  }
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+  }
+  
+  .scroll-btn.left {
+    left: 10px;
+  }
+  
+  .scroll-btn.right {
+    right: 10px;
+  }
   
   
   
